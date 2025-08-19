@@ -31,7 +31,22 @@ See `/sql` folder for full queries.
 ---
 
 ## 4. Dashboards
-🖼️ **In Progress**: Grafana/Looker dashboards will visualize churn, funnel, and rep productivity.
+
+This project includes dashboards built in **Grafana Cloud**.
+
+### Current
+- **Demo panel using Grafana TestData DB**  
+  Example visualization to validate setup and demonstrate dashboard creation.  
+  ![Churn Dashboard](dashboard_screenshots/Grafana_dashboard panel.jpg)
+
+### Next
+- Connect custom dataset (`customers.csv`) using the CSV data source plugin  
+- Build KPI cards and charts for:
+  - **Churn Rate** (customer retention vs churned)  
+  - **Win Rate** (opportunities vs closed-won)  
+  - **Rep Productivity** (deals closed per sales rep)  
+
+  This progression shows the workflow from proof-of-concept to custom GTM dashboards.
 
 ---
 
